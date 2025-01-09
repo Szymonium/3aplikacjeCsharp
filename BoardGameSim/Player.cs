@@ -6,6 +6,13 @@ public class Player
     public Dictionary<char, int> Position;
     public double Score;
 
+    public Player(string name)
+    {
+        Name = name;
+        Position = new Dictionary<char, int>();
+        Score = 0;
+    }
+
     public void Move()
     {
         
