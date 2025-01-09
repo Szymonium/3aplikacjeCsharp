@@ -9,27 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04c7f2cc-6fea-4064-8447-3e4a63df8f50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BoardGameSim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BoardGameSim/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BoardGameSim/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BoardGameSim/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim.sln" beforeDir="false" afterPath="$PROJECT_DIR$/3aplikacja.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/BoardGameSim.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/BoardGameSim.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/BoardGameSim.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/BoardGameSim.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/Debug/net8.0/BoardGameSim.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGameSim/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGameSim/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="04c7f2cc-6fea-4064-8447-3e4a63df8f50" name="Changes" comment="Create other projects, start work on BGS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,8 +127,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736437794318</updated>
-      <workItem from="1736437795364" duration="3637000" />
+      <workItem from="1736437795364" duration="4611000" />
     </task>
+    <task id="LOCAL-00001" summary="Create other projects, start work on BGS">
+      <option name="closed" value="true" />
+      <created>1736453073366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736453073366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +158,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="create empty classes" />
+    <MESSAGE value="Create other projects, start work on BGS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create other projects, start work on BGS" />
   </component>
 </project>
