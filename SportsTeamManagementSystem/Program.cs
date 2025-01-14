@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using SportsTeamManagementSystem;
 
-Console.WriteLine("Hello, World!");
+public class Program
+{
+    static void Main()
+    {
+        
+    }
+}
