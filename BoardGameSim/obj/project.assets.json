@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ankaf\\.nuget\\packages\\": {}
+    "/home/iii_tie/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankaf\\RiderProjects\\3aplikacjeCsharp\\BoardGameSim\\BoardGameSim.csproj",
+      "projectUniqueName": "/home/iii_tie/RiderProjects/3aplikacjeCsharp/BoardGameSim/BoardGameSim.csproj",
       "projectName": "BoardGameSim",
-      "projectPath": "C:\\Users\\ankaf\\RiderProjects\\3aplikacjeCsharp\\BoardGameSim\\BoardGameSim.csproj",
-      "packagesPath": "C:\\Users\\ankaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankaf\\RiderProjects\\3aplikacjeCsharp\\BoardGameSim\\obj\\",
+      "projectPath": "/home/iii_tie/RiderProjects/3aplikacjeCsharp/BoardGameSim/BoardGameSim.csproj",
+      "packagesPath": "/home/iii_tie/.nuget/packages/",
+      "outputPath": "/home/iii_tie/RiderProjects/3aplikacjeCsharp/BoardGameSim/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ankaf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/iii_tie/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\ankaf\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
