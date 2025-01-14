@@ -4,11 +4,10 @@ public class Program
 {
     static void Main()
     {
-        Board plansza = new Board(2);
+        Player gracz = new Player("skibidi");
+        Board plansza = new Board([gracz]);
         plansza.GenerateTurnPrizes(10);
         plansza.ShowBoard();
-
-        Player gracz = new Player("skibidi");
         
         gracz.Move();
     }

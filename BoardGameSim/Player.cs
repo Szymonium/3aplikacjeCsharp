@@ -4,7 +4,7 @@ public class Player
 {
     public string Name;
     public Dictionary<char, int> Position;
-    public double Score;
+    public int Score;
     Random _random = new Random();
 
     public Player(string name)
@@ -28,11 +28,30 @@ public class Player
             Console.WriteLine(direction);
         } while (!directions.Contains(direction));
 
-        
+        switch (direction)
+        {
+            case "Up":
+                Position.Add('y', Position['y'] + dice);
+                break;
+            case "Down":
+                Position.Add('y', Position['y'] - dice);
+                break;
+            case "Left":
+                Position.Add('x', Position['x'] - dice);
+                break;
+            case "Right":
+                Position.Add('x', Position['x'] + dice);
+                break;
+        }
     }
 
+    public void UpdateScore(int score)
+    {
+        Score += score;
+    }
+    
     public void UpdateScore()
     {
-        
+        Score *= 2;
     }
 }
