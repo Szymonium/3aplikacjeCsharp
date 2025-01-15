@@ -33,8 +33,9 @@ public class Board
             int randY = _random.Next(0, Size);
             if (BoardArray[randX][randY]["char"] == "\u2007")
             {
+                List<Player> players = [playersArray[x]];
                 BoardArray[randX][randY]["char"] = "8";
-                BoardArray[randX][randY].Add("player", Players[x]);
+                BoardArray[randX][randY].Add("players", players);
                 Players[x].Position.Add('x', randX);
                 Players[x].Position.Add('y', randY);
                 x++;

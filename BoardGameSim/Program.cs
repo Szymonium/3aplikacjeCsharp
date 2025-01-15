@@ -6,9 +6,8 @@ public class Program
     {
         Player gracz = new Player("skibidi");
         Board plansza = new Board([gracz]);
-        plansza.GenerateTurnPrizes(10);
-        plansza.ShowBoard();
         
-        gracz.Move();
+        Game rozgrywka = new Game(plansza);
+        rozgrywka.GameStart();
     }
 }
