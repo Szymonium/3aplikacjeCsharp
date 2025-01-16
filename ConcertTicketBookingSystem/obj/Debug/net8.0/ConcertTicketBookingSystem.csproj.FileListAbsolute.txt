@@ -1,0 +1,15 @@
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\bin\Debug\net8.0\ConcertTicketBookingSystem.exe
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\bin\Debug\net8.0\ConcertTicketBookingSystem.deps.json
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\bin\Debug\net8.0\ConcertTicketBookingSystem.runtimeconfig.json
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\bin\Debug\net8.0\ConcertTicketBookingSystem.dll
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\bin\Debug\net8.0\ConcertTicketBookingSystem.pdb
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.AssemblyInfoInputs.cache
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.AssemblyInfo.cs
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.csproj.CoreCompileInputs.cache
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.sourcelink.json
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.dll
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\refint\ConcertTicketBookingSystem.dll
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.pdb
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ConcertTicketBookingSystem.genruntimeconfig.cache
+C:\Users\ankaf\RiderProjects\3aplikacjeCsharp\ConcertTicketBookingSystem\obj\Debug\net8.0\ref\ConcertTicketBookingSystem.dll

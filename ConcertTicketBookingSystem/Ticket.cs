@@ -5,13 +5,18 @@ namespace ConcertTicketBookingSystem;
 public class Ticket
 {
     public Concert Concert;
-    public double Price;
-    public string SeatNumber;
+    public decimal Price;
+    public int SeatNumber;
 
-    public Ticket(Concert concert, double price, string seatNumber)
+    public Ticket(Concert concert, decimal price, int seatNumber)
     {
         Concert = concert;
         Price = price;
         SeatNumber = seatNumber;
+    }
+    
+    public override string ToString()
+    {
+        return $"Bilet na {Concert.Name} w {Concert.Location} dnia {Concert.Date.ToShortDateString()} | Miejsce: {SeatNumber} | Cena: {Price} PLN";
     }
 }

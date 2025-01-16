@@ -19,9 +19,10 @@ public class Board
             for (int j = 0; j < Size; j++)
             {
                 Dictionary<string, dynamic> field = new Dictionary<string, dynamic>();
-                field.Add("char", "\u2007");
+                field.Add("char", '-');
                 field.Add("isSpecial", _random.Next(100) < 15);
                 field.Add("hasPrize", false);
+                field.Add("players", new List<Player>());
                 BoardArray[i].Add(field);
             }
         }
@@ -29,13 +30,12 @@ public class Board
         int x = 0;
         do
         {
+            playersArray[x].Id = x;
             int randX = _random.Next(0, Size);
             int randY = _random.Next(0, Size);
-            if (BoardArray[randX][randY]["char"] == "\u2007")
+            if (BoardArray[randY][randX]["players"].Count == 0)
             {
-                List<Player> players = [playersArray[x]];
-                BoardArray[randX][randY]["char"] = "8";
-                BoardArray[randX][randY].Add("players", players);
+                BoardArray[randY][randX]["players"].Add(playersArray[x]);
                 Players[x].Position.Add('x', randX);
                 Players[x].Position.Add('y', randY);
                 x++;
@@ -45,15 +45,22 @@ public class Board
 
     public void GenerateTurnPrizes(int prizeCount)
     {
+        foreach (var row in BoardArray)
+        {
+            foreach (var field in row)
+            {
+                field["hasPrize"] = false;
+            }
+        }
+        
         int x = 0;
         do
         {
             int randX = _random.Next(0, Size);
             int randY = _random.Next(0, Size);
-            if (BoardArray[randX][randY]["char"] == "\u2007")
+            if (BoardArray[randY][randX]["hasPrize"] == false && BoardArray[randY][randX]["players"].Count == 0)
             {
-                BoardArray[randX][randY]["char"] = "$";
-                BoardArray[randX][randY]["hasPrize"] = true;
+                BoardArray[randY][randX]["hasPrize"] = true;
                 x++;
             }
         } while (prizeCount > x);
@@ -65,6 +72,8 @@ public class Board
         {
             foreach (var field in row)
             {
+                field["char"] = field["players"].Count == 1 ? field["players"][0].Id : field["hasPrize"] ? '$' : '-';
+                field["char"] = field["players"].Count > 1 ? '%' : field["char"];
                 Console.Write(field["char"]);
             }
             Console.WriteLine();

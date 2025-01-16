@@ -5,6 +5,7 @@ public class Player
     public string Name;
     public Dictionary<char, int> Position;
     public int Score;
+    public int Id;
     Random _random = new Random();
 
     public Player(string name)
@@ -33,22 +34,22 @@ public class Player
             switch (direction)
             {
                 case "Up":
-                    Position['y'] +=  + dice;
+                    Position['y'] -= dice;
                     break;
                 case "Down":
-                    Position['y'] -=  + dice;
+                    Position['y'] += dice;
                     break;
                 case "Left":
-                    Position['x'] -=  + dice;
+                    Position['x'] -= dice;
                     break;
                 case "Right":
-                    Position['x'] +=  + dice;
+                    Position['x'] += dice;
                     break;
             }
 
             return;
         }
-        Console.Write($"Wylosowałeś {dice}, niestety nie możesz się poruszyć ");
+        Console.WriteLine($"Wylosowałeś {dice}, niestety nie możesz się poruszyć ");
     }
 
     public void UpdateScore(int score)
