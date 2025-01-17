@@ -25,7 +25,7 @@ public class Game
         while (turns < 3)
         {
             Player currPlayer = Players[x];
-            Console.WriteLine($"Kolej gracza: {currPlayer.Id}. {currPlayer.Name}");
+            Console.WriteLine($"{turns+1} tura gracza: {currPlayer.Id}. {currPlayer.Name}");
             char action;
             List<char> actions = new List<char> { '1', '2', '3' };
             do
