@@ -76,6 +76,7 @@ public class Game
                     Console.WriteLine("Podaj ilość nowych nagród: ");
                     int prizeQuantity = Convert.ToInt32(Console.ReadLine());
                     if (prizeQuantity.GetType() != typeof(int)) prizeQuantity = Players.Count * 2;
+                    if (prizeQuantity > Board.Size * Board.Size - Players.Count) prizeQuantity = Board.Size * Board.Size - Players.Count;
                     genPrizes(prizeQuantity);
                     Console.WriteLine($"Wygenerowano {prizeQuantity} nagród!");
                     break;
@@ -90,6 +91,12 @@ public class Game
             Console.WriteLine("Naciśnij aby skończyć turę");
             Console.ReadKey();
             Console.Clear();
+        }
+        
+        Players.Sort((player1, player2) => player2.Score - player1.Score);
+        for (int i = 0; i < Players.Count; i++)
+        {
+            Console.WriteLine($"Gracz {Players[i].Name} zdobył miejsce {i+1}. z wynikiem {Players[i].Score} punktów");
         }
     }
 }

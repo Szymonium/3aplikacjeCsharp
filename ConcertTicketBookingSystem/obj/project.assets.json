@@ -8,19 +8,20 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ankaf\\.nuget\\packages\\": {}
+    "/home/sigma/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankaf\\RiderProjects\\3aplikacjeCsharp\\ConcertTicketBookingSystem\\ConcertTicketBookingSystem.csproj",
+      "projectUniqueName": "/home/sigma/RiderProjects/3aplikacjeCsharp/ConcertTicketBookingSystem/ConcertTicketBookingSystem.csproj",
       "projectName": "ConcertTicketBookingSystem",
-      "projectPath": "C:\\Users\\ankaf\\RiderProjects\\3aplikacjeCsharp\\ConcertTicketBookingSystem\\ConcertTicketBookingSystem.csproj",
-      "packagesPath": "C:\\Users\\ankaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankaf\\RiderProjects\\3aplikacjeCsharp\\ConcertTicketBookingSystem\\obj\\",
+      "projectPath": "/home/sigma/RiderProjects/3aplikacjeCsharp/ConcertTicketBookingSystem/ConcertTicketBookingSystem.csproj",
+      "packagesPath": "/home/sigma/.nuget/packages/",
+      "outputPath": "/home/sigma/RiderProjects/3aplikacjeCsharp/ConcertTicketBookingSystem/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\ankaf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/sigma/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +39,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\ankaf\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
